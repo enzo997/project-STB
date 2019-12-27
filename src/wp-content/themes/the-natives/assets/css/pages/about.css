@@ -1,0 +1,224 @@
+.about {
+  padding-top: 255px; }
+  .about .sec-top {
+    margin-bottom: 99px; }
+    .about .sec-top h1 {
+      max-width: 720px;
+      margin-bottom: 55px; }
+    .about .sec-top img {
+      margin-bottom: 65px; }
+    .about .sec-top .description {
+      max-width: 804px; }
+  .about .sec-partners {
+    text-align: right;
+    margin-bottom: 122px; }
+    .about .sec-partners .title-and-logo {
+      padding: 93px 15px;
+      background-color: #fafafa;
+      margin-bottom: 99px; }
+    .about .sec-partners h3 {
+      text-align: center;
+      margin-bottom: 50px; }
+    .about .sec-partners .partner-logo {
+      padding: 55px 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .about .sec-partners .description {
+      display: inline-block;
+      max-width: 840px; }
+  .about .sec-process h3 {
+    margin-bottom: 99px;
+    text-align: center; }
+  .about .sec-process .process-member {
+    margin-bottom: 150px; }
+  .about .sec-process .case-2 {
+    text-align: center; }
+    .about .sec-process .case-2 .row {
+      margin-left: 0;
+      margin-right: 0; }
+    .about .sec-process .case-2 .row1 {
+      margin-bottom: 23px; }
+    .about .sec-process .case-2 .row2 {
+      text-align: center; }
+    .about .sec-process .case-2 div {
+      padding: 0; }
+  .about .sec-process .case-3 .row {
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center; }
+  .about .sec-process .case-3 div {
+    padding: 0; }
+  .about .sec-process .case-3 .col1 {
+    text-align: left; }
+  .about .sec-process .case-3 .col2 {
+    text-align: center; }
+  .about .sec-process .case-3 .image-2 {
+    margin-bottom: 25px; }
+  .about .sec-process .reverse {
+    flex-direction: row-reverse; }
+  .about .sec-process .text-container {
+    padding: 0 56px; }
+  .about .sec-process .text-col {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: center; }
+  .about .sec-awards {
+    padding: 82px 0;
+    background-color: #fafafa;
+    margin-bottom: 150px; }
+    .about .sec-awards .content {
+      max-width: 977px;
+      margin: auto; }
+    .about .sec-awards h3 {
+      text-align: center;
+      margin-bottom: 69px; }
+    .about .sec-awards li {
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #003dff;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .about .sec-awards li > div:last-child {
+        text-align: right; }
+  .about .sec-team {
+    padding-bottom: 219px;
+    padding-left: calc((100% - 1306px)/2); }
+    .about .sec-team h3 {
+      margin-bottom: 74px;
+      text-align: center; }
+    .about .sec-team .team-member {
+      margin-left: 30px;
+      margin-right: 30px;
+      padding-bottom: 70px; }
+    .about .sec-team .image-row {
+      margin-bottom: 19px; }
+    .about .sec-team .reverse {
+      flex-direction: column-reverse;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex; }
+      .about .sec-team .reverse.team-member {
+        padding-bottom: 0;
+        padding-top: 70px; }
+      .about .sec-team .reverse .image-row {
+        margin-bottom: 0; }
+      .about .sec-team .reverse .content-row {
+        margin-bottom: 22px; }
+  .about .sec-questions {
+    padding-bottom: 100px; }
+    .about .sec-questions .question-container {
+      max-width: 1087px;
+      margin: auto; }
+    .about .sec-questions h3 {
+      text-align: center;
+      margin-bottom: 73px; }
+    .about .sec-questions .question {
+      display: flex;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer; }
+    .about .sec-questions i {
+      font-size: 13px; }
+    .about .sec-questions .fa-minus {
+      display: none; }
+    .about .sec-questions .answer-container {
+      height: 0;
+      opacity: 0;
+      visibility: hidden; }
+    .about .sec-questions h4 {
+      transition: all 0.3s linear; }
+    .about .sec-questions .active .fa-minus {
+      display: block;
+      color: #3a3a3a; }
+    .about .sec-questions .active .fa-plus {
+      display: none;
+      color: #3a3a3a; }
+    .about .sec-questions .active .answer-container {
+      height: auto;
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease; }
+    .about .sec-questions .active h4 {
+      color: #3a3a3a;
+      font-size: 18px;
+      transition: all 0.3s linear; }
+    .about .sec-questions .question-member {
+      padding-bottom: 15px;
+      margin-bottom: 26px;
+      border-bottom: 1px solid #0000ff; }
+
+/*
+*
+*responsive
+*
+*/
+@media screen and (max-width: 1336px) {
+  .about .sec-team {
+    padding-left: calc((100% - 1140px)/2); } }
+/*1200-992*/
+@media screen and (max-width: 1200px) {
+  .about .sec-team {
+    padding-left: calc((100% - 960px)/2); }
+  .about .sec-process .case-3 .col1 {
+    padding-right: 5px; }
+  .about .sec-process .case-3 .col2 {
+    padding-left: 5px; }
+  .about .sec-process .case-3 .image-2 {
+    margin-bottom: 10px; }
+  .about .sec-process .case-2 .image-1 {
+    padding-right: 5px; }
+  .about .sec-process .case-2 .image-2 {
+    padding-left: 5px; }
+  .about .sec-process .case-2 .row1 {
+    margin-bottom: 10px; } }
+/*end 1200-992*/
+@media (max-width: 1199px) {
+  .sec-awards .aw-list-container {
+    width: calc(100% - 30px);
+    margin: auto; } }
+/*991-768*/
+@media screen and (max-width: 991px) {
+  .about .sec-process .text-container {
+    padding: 0; }
+  .about .sec-team {
+    padding-left: calc((100% - 720px)/2); } }
+/*end 991-768*/
+/*576-767 mobile*/
+@media screen and (max-width: 767px) {
+  .about h3 {
+    margin-bottom: 30px; }
+  .about .sec-process .image-col {
+    margin-bottom: 50px; }
+  .about .sec-process .process-member {
+    margin-bottom: 80px; }
+  .about .sec-awards li {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0; }
+    .about .sec-awards li > div {
+      padding: 0; }
+  .about .sec-partners {
+    margin-bottom: 80px; }
+    .about .sec-partners .title-and-logo {
+      margin-bottom: 30px; }
+  .about .sec-awards {
+    margin-bottom: 80px; }
+  .about .sec-team {
+    padding-bottom: 80px;
+    padding-left: calc((100% - 540px)/2); }
+
+  .about .sec-team .team-member {
+    padding-bottom: 0; }
+
+  .about .sec-team .reverse.team-member {
+    padding-top: 0; } }
+/*end 576-767 mobile*/
+@media screen and (max-width: 574px) {
+  .about .sec-team {
+    padding-left: 0; } }

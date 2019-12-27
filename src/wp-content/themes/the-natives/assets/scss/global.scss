@@ -1,0 +1,189 @@
+/*global-css*/
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+input,button,div{
+
+    &:focus{
+        outline: none;
+    }
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+//color
+.color-1c{
+    color: #1c1c1c;
+}
+
+.color-w{
+    color: white;
+}
+
+.color-v{
+    color: #0000ff;
+}
+
+.color-3a{
+    color: #3a3a3a;
+}
+
+.color-b{
+    color: #0037e9;
+}
+
+//font
+.font-os{
+    font-family: 'ObjectSans-Regular';
+}
+
+.f-size-38{
+    font-size: 38px;
+    line-height: 57px;
+}
+
+.f-size-30{
+    font-size: 30px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+}
+
+.f-size-26{
+    font-size: 26px;
+    line-height: 46px;
+    letter-spacing: 0.5px;
+}
+
+.f-size-22{
+    font-size: 22px;
+    line-height: 46px;
+} 
+
+.f-size-20{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.41px;
+}
+
+.f-size-18{
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.f-size-16{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.33px;
+}
+
+.f-size-15{
+    font-size: 15px;
+    line-height: 34px;
+    letter-spacing: 0.52px;
+}
+
+.f-size-14{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.29px;
+}
+
+.f-size-13{
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.27px;
+}
+
+.f-w-400{
+    font-weight: 400;
+}
+/*end global css*/
+
+
+
+
+
+
+/*
+*
+*responsive
+*
+*/
+
+
+/*1200-992*/
+@media screen and (max-width: 1200px){
+    
+}
+/*end 1200-992*/
+
+
+/*991-768*/
+@media screen and (max-width: 991px){
+    .f-size-26{
+        font-size: 24px;
+        letter-spacing: 0.41px;
+        line-height: 35px;
+    }
+
+    .f-size-30,
+    .f-size-38,
+    .f-size-22,
+    .f-size-18,
+    .f-size-20{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.13px;
+    }
+
+    .f-size-16,
+    .f-size-15,
+    .f-size-14{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    /*header*/
+    .site-header .page_item{
+        padding: 0 15px;
+    }
+    /*end header*/
+}
+/*end 991-768*/
+
+
+/*576-767 mobile*/
+@media screen and (max-width: 767px){
+    .f-size-26{
+        font-size: 20px;
+        letter-spacing: 0.41px;
+        line-height: 32px;
+    }
+
+    .f-size-30,
+    .f-size-38,
+    .f-size-22,
+    .f-size-18,
+    .f-size-20{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.13px;
+    }
+
+    .f-size-16,
+    .f-size-15,
+    .f-size-14{
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+
+}
+/*end 576-767 mobile*/

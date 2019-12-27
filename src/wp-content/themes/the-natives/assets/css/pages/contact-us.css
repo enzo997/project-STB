@@ -1,0 +1,241 @@
+.sec_information {
+  padding-bottom: 150px; }
+  .sec_information .description {
+    color: #1c1c1c;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 42px; }
+  .sec_information .contact {
+    color: #1c1c1c;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.33px;
+    line-height: 31px;
+    padding-top: 30px; }
+    .sec_information .contact .address {
+      max-width: 155px;
+      color: #1c1c1c; }
+    .sec_information .contact a {
+      color: #003dff; }
+      .sec_information .contact a:hover {
+        color: #1c1c1c; }
+
+.sec_contact_form {
+  padding-bottom: 174px; }
+  .sec_contact_form .title-h2 {
+    color: #3959f4;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 40px; }
+  .sec_contact_form .frm_style_formidable-style .frm_fields_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -39px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: 0 39px;
+      margin-bottom: 35px; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field.w-50 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_primary_label {
+        color: #3a3a3a;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        display: flex;
+        font-family: 'ObjectSans-Regular',sans-serif;
+        font-weight: 400; }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_primary_label .frm_required {
+          color: inherit;
+          font-weight: inherit; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input:not([type="checkbox"]), .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field textarea {
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        color: #003dff;
+        font-family: 'ObjectSans-Regular',sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        padding: 0; }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input:not([type="checkbox"]):focus, .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field textarea:focus {
+          border-color: #003dff; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input:not([type="checkbox"]) {
+        border-bottom: 1px solid #979797;
+        min-height: 50px; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_checkbox label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 27px;
+        font-family: 'ObjectSans-Regular',sans-serif; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        margin-right: 21px; }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"]:focus {
+          border: none;
+          box-shadow: none; }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"]::after {
+          content: "";
+          width: 25px;
+          height: 25px;
+          border: 1px solid #003dff;
+          background-color: white;
+          display: block; }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"]:checked::after {
+          background-color: #003dff; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field textarea {
+        border: 1px solid #979797;
+        padding: 17px 30px; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_opt_container {
+        margin-top: 20px; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field.frm_none_container .frm_primary_label {
+        display: none; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .frm_submit {
+      padding: 0 39px;
+      width: 100%; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .frm_submit button {
+        border: none;
+        box-shadow: none;
+        color: #1c1c1c;
+        font-family: 'ObjectSans-Regular',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.33px;
+        line-height: 31px;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        padding-right: 70px;
+        margin-left: auto;
+        position: relative; }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .frm_submit button::after {
+          content: url("../../images/icon-submit.svg");
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%); }
+        .sec_contact_form .frm_style_formidable-style .frm_fields_container .frm_submit button:hover::after {
+          animation: hover_submit .7s infinite; }
+
+@keyframes hover_submit {
+  0% {
+    right: 15%; }
+  100% {
+    right: 0%; } }
+.sec_thankyou {
+  padding-bottom: 175px; }
+
+@media only screen and (max-width: 1199px) {
+  .sec_information .col-lg-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .sec_information .c_cont {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: 0; }
+  .sec_information .description {
+    max-width: 480px; } }
+@media only screen and (max-width: 991px) {
+  .sec_information .frm_style_formidable-style .frm_fields_container .form-field .frm_opt_container {
+    display: flex; }
+
+  .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_opt_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_opt_container .frm_checkbox {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin: 0;
+      padding-left: 15px;
+      padding-right: 15px; } }
+@media only screen and (max-width: 768px) {
+  .sec_information {
+    padding-bottom: 35px; }
+    .sec_information .description {
+      font-size: 20px;
+      letter-spacing: 0.41px;
+      line-height: 32px; }
+    .sec_information .contact {
+      font-size: 14px;
+      letter-spacing: 0.29px;
+      line-height: 22px; }
+      .sec_information .contact .address {
+        margin-bottom: 21px; }
+    .sec_information .row .c_cont {
+      max-width: 155px; }
+      .sec_information .row .c_cont:nth-last-child(2) {
+        padding-right: 5px; }
+      .sec_information .row .c_cont:last-child {
+        padding-left: 5px; }
+
+  .sec_contact_form {
+    padding-bottom: 35px; }
+    .sec_contact_form .title-h2 {
+      font-size: 16px;
+      line-height: 1.75;
+      letter-spacing: 0.13px;
+      margin-bottom: 30px; }
+    .sec_contact_form .contact {
+      padding-top: 20px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field.w-50 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field.field-checkbox .frm_primary_label {
+      font-size: 16px;
+      margin-bottom: 30px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_opt_container .frm_checkbox {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%; }
+      .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_opt_container .frm_checkbox label {
+        font-size: 12px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field .frm_primary_label {
+      font-size: 12px;
+      letter-spacing: 1px;
+      line-height: 16px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input:not([type="checkbox"]), .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field textarea {
+      font-size: 14px;
+      line-height: 22px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input:not([type="checkbox"]) {
+      min-height: 32px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"], .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"]::after {
+      width: 19px;
+      height: 19px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field input[type="checkbox"] {
+      margin-right: 8px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field.field-checkbox {
+      margin-top: 20px;
+      margin-bottom: 5px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .form-field textarea {
+      height: 200px; }
+    .sec_contact_form .frm_style_formidable-style .frm_fields_container .frm_submit button {
+      margin: auto;
+      font-size: 14px;
+      letter-spacing: 0.29px;
+      width: 100%; }
+
+  .sec_thankyou {
+    padding-bottom: 52px; } }
+@media only screen and (max-width: 370px) {
+  .sec_information .c_cont {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 15px !important;
+    padding-right: 15px !important; } }

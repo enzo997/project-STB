@@ -1,0 +1,158 @@
+.tab_line{
+    border-bottom: solid 1px #2151ee;
+}
+.sec_head_top{
+    // padding-top: 190px;
+    padding-bottom: 40px;
+    .tilte-h1{
+        color: #1c1c1c;
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 0.54px;
+        line-height: 46px;
+        max-width: 623px;
+    }
+}
+
+.workshops{
+    padding-bottom: 190px;
+    .tab_title{
+        margin-bottom: 64px;
+        .title-h3{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 2.56;
+            letter-spacing: 0.62px;
+            color: #2151ee;
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+.workshops_list{}
+.workshops_box {display: flex; flex-wrap: wrap;
+    &:not(.flex-row-reverse){
+        .col-cont{
+            padding-left: 104px;
+        }
+    }
+    &:not(:last-child){margin-bottom: 157px;}
+    .col-image{
+        -ms-flex: 0 0 601px;
+        flex: 0 0 601px;
+        max-width: 601px;
+        img{}
+    }
+    .col-cont{
+        -ms-flex: 0 0 calc(100% - 601px);
+        flex: 0 0 calc(100% - 601px);
+        max-width: calc(100% - 601px);
+        padding-left: 51px;
+        display: flex;
+        align-items: center;
+        .content{
+            max-width: 500px;
+        }
+        .title-h3{
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 1.53;
+            letter-spacing: 0.62px;
+            color: #2151ee;
+            margin-bottom: 37px;
+        }
+        .title-h4{
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 2.09;
+            letter-spacing: 0.46px;
+            color: #2151ee;
+            margin-bottom: 13px;
+        }
+        .description{
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 1.78;
+            color: #3a3a3a;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1279px){
+    .workshops_box {
+        .col-image{
+            -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+            max-width: 40%;
+        }
+        .col-cont{
+            -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+            max-width: 60%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px){
+    .workshops_box{
+        &.flex-row-reverse{
+            .col-cont{padding-right: 60px;}
+        }
+        
+    } 
+}
+
+@media only screen and (max-width: 991px){
+    .workshops { padding-bottom: 90px; }
+    .workshops_box{
+        &:not(:last-child){margin-bottom: 60px;}
+        &:not(.flex-row-reverse){
+            .col-cont{padding-left: 40px;}
+        }
+        &.flex-row-reverse{
+            .col-cont{padding-right: 40px;}
+        }
+        .col-cont{padding-left: 0}
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .sec_head_top {
+        // padding-top: 30px;
+        padding-bottom: 0px;
+        .tilte-h1{
+            font-size: 20px;
+            letter-spacing: 0.41px;
+            line-height: 32px;
+            margin-bottom: 20px;
+        }
+    }
+    .workshops{
+        .tab_title {
+            margin-bottom: 32px;
+            .title-h3{
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 20px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+    .workshops_box {
+        .col-image, .col-cont{
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-cont{padding: 40px 0 0 !important;
+            .title-h3, .description{
+                font-size: 16px;
+                letter-spacing: 0.13px;
+                line-height: 24px;
+            }
+            .title-h3{margin-bottom: 32px;}
+        }
+    }
+}

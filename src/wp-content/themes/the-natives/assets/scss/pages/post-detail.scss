@@ -1,0 +1,187 @@
+.p_banner_top{
+    // padding-top: 180px;
+    padding-bottom: 52px;
+    .title-h1{
+        color: #1c1c1c;
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 42px;
+        margin-bottom: 63px;
+    }
+    .information {
+        color: #1c1c1c;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.62px;
+        line-height: 46px;
+        border-bottom: 1px solid #003dff;
+        margin-bottom: 62px;
+        .date-author{
+
+        }
+        .date{color: #003dff;}
+        .author{
+            padding-left: 10px;
+            a{
+                color: #1c1c1c;
+                &:hover{color: #003dff;}
+            }
+        }
+        .cayegories{
+            display: flex;
+        }
+        .category{
+            display: flex;
+            color: #003dff;
+            &:not(:last-child){
+                &:after{
+                    content: ',';
+                    margin-right: 5px;
+                }
+            }
+            a{
+                color: #003dff;
+                &:hover{color: #1c1c1c;}
+            }
+        }
+        .featured-image{
+            img{}
+        }
+    }
+    .featured-image{
+        img{width: 100%; min-height: 312px; object-fit: cover;  object-position: center;}
+    }
+}
+
+.p_content{
+    // margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    .content{
+        h2, h3, h4, h5, h6{
+            color: #3959f4;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 40px;
+        }
+        h2{font-size: 26px;}
+        h3{}
+        h4{font-size: 22px;}
+        h5{font-size: 18px; line-height: 40px;}
+        h6{font-size: 18px;}
+        p{
+            color: #3a3a3a;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 32px;
+        }
+        ul{
+            margin-top: 18px;
+            li{
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+.sec_image{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    .col-image{
+        img{width: 100%; min-height: 312px;  object-fit: cover;  object-position: center;}
+    }
+    .gallery .row{
+        margin-left: -5px;
+        margin-right: -5px;
+        [class*="col-md"]{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
+}
+
+.sec_pcontact{
+    padding-bottom: 72px;
+    padding-top: 66px;
+    .content{
+        border-top: 1px solid #003dff;
+        padding-top: 20px;
+        .description{max-width: 840px;}
+        a{
+            color: #3959f4;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 40px;
+            text-decoration: underline;
+            
+            &:hover{
+                color: #3a3a3a;
+            }
+        }
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 768px){
+    .p_banner_top {
+        // padding-top: 35px;
+        padding-bottom: 7px;
+        .title-h1{
+            font-size: 20px;
+            letter-spacing: 0.41px;
+            line-height: 32px;
+            margin-bottom: 40px;
+        }
+        .information{
+            font-size: 12px;
+            line-height: 20px;
+            padding-bottom: 8px;
+            margin-bottom: 32px;
+            // .cayegories{display: none;}
+            .date{ color: #000000;}
+        }
+
+    }
+    .p_content {
+        .content {
+            h2,h3,h4,h5,h6, p{font-size: 16px; letter-spacing: 0.13px; line-height: 24px;}
+            h5.title-h5{margin-bottom: 24px;}
+            ul {
+                margin-top: 0;
+                li {font-size: 14px; letter-spacing: 0.12px; line-height: 27px;}
+            }
+        }
+        &.section_1{
+            padding-bottom: 7px;
+        }
+        &.section_7{
+            margin-bottom: -30px;
+        }
+    }
+    .sec_image {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .gallery .row [class*="col-md"]:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+    .sec_pcontact {
+        padding-top: 32px;
+        padding-bottom: 60px;
+        .content {
+            border: none;
+            padding-top: 0;
+            a{
+                font-size: 14px;
+                letter-spacing: 0.12px;
+                line-height: 27px;
+                text-decoration: underline;
+            }
+        }
+    }
+}
